@@ -1,0 +1,13 @@
+.about-page {
+    background-image: url("https://img.freepik.com/free-photo/library-with-books_1063-98.jpg?t=st=1718709395~exp=1718712995~hmac=2f35c1fed1aab6c5178e4f4c19a441678b8339719f8f51acff0a7e522697bdac&w=900");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content-container {
+    background: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
