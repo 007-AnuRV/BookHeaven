@@ -93,6 +93,7 @@ export default Banner;*/
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Bannerimage from '../../public/book.jpg'
 
 function Banner() {
   // Check user login status (replace with your actual login check logic)
@@ -152,7 +153,7 @@ function Banner() {
 
         {/* Right */}
         <div className="order-1 md:order-2 w-full md:w-1/2">
-          <img className="w-92 h-92" src="./public/book.jpg" alt="book_image" />
+          <img className="w-92 h-92" src={Bannerimage} alt="book_image" />
         </div>
       </div>
     </>
